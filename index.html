@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contatos - Barbearia Alura</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="geral.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="https://cdn1.gnarususercontent.com.br/1/1125050/6e04bde8-5872-4d1d-8f26-fdb181dfaced.png" alt="Logo da Barbearia Alura"></h1>
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contatos.html">Contatos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<form>
+				<label for="nome e sobrenome">Nome e sobrenome</label>
+				<input type="text" id="nome e sobrenome" class="padrão" required placeholder="Luke Lars Naberrie Skywalker">
+				<label for="email">Email</label>
+				<input type="email" id="email" class="padrão" required placeholder="no@imyourfather.com">
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="padrão" required placeholder="(11)93224-4000">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="60" rows="10" id="mensagem" class="padrão" required></textarea>
+				
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Ligação</label>
+					<label for="radio-whats"><input type="radio" name="contato" value="whats" id="radio-whats" checked>WhatsApp</label>
+				</fieldset>
+
+				<fieldset class="select">
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="submit">
+
+				<table>
+					<thead>
+						<tr>
+							<th>Dia</th>
+							<th>Horário</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						<tr>
+							<td>Quarta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+						<tr>
+							<td>Sexta</td>
+							<td>8h ~ 20h</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</form>
+		</main>		
+		<footer>
+			<img src="https://gitricardosantos.github.io/Barbearia/logo-branco.png" alt="Logo da Barbearia Alura">
+			<p class="copyright">© Copyright Barbearia Alura - 2022</p>
+		</footer>
+	</body>
+</html>
